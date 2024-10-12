@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <!-- Fuente del Proyecto Raleway -->
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap" rel="stylesheet">
+    <title>JMIDev</title>
+</head>
+
+<body>
+    <!-- Menú -->
+    <header class="cabecera" role="banner">
+        <a href="#inicio"><img class="cabecera__logo" src="assets/logo.webp" alt="Logo de JMIDev"></a>
+        <nav class="navegacion" role="navigation" aria-label="Navegación principal">
+            <ul class="navegacion__lista">
+                <li class="navegacion__elemento"><button href="#sobre-mi" aria-label="Ir a la sección Sobre mí">Sobre mí</button></li>
+                <li class="navegacion__elemento"><button href="#habilidades">Habilidades</button></li>
+                <li class="navegacion__elemento"><button href="#aficiones">Aficiones</button></li>
+                <li class="navegacion__elemento"><button href="#formacion">Formación</button></li>
+                <li class="navegacion__elemento"><button href="#proyectos">Proyectos</button></li>
+                <li class="navegacion__elemento"><button href="#contacto">Contacto</button></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Sección de Presentación -->
+    <main id="inicio">
+        <section class="presentacion" aria-labelledby="presentacion-titulo">
+            <div class="presentacion__contenedor">
+                <h1 id="presentacion-titulo" class="presentacion__titulo">Hola, mi nombre es Juan Manuel Impellizziere. <br> Soy</h1>
+                <h1 class="texto-dinamico"></h1>
+                <ul class="redes">
+                    <li class="redes__img"><a href="https://github.com/juanmanuel-dev">Github <img src="assets/arrow.png" alt="Flecha"></a></li>
+            <li class="redes__img"><a href="https://linkedin.com/in/juan-manuel-impellizziere-dev">Linkedin <img src="assets/arrow.png" alt="Flecha"></a></li>
+            <li class="redes__img"><a href="https://www.instagram.com/juanmanuelmda/">Instagram <img src="assets/arrow.png" alt="Flecha"></a></li>
+            <li class="redes__img"><a href="https://drive.google.com/file/d/180RHqhvq6X3FEUdrhsC3JVUPjVOWUn0Q/view?usp=drive_link">Currículo <img src="assets/arrow.png" alt="Flecha"></a></li>
+                </ul>
+            </div>
+        </section>
+
+        <!-- Sección sobre mí -->
+        <section class="sobre-mi" id="sobre-mi">
+            <div class="sobre-mi__contenedor">
+                <div class="sobre-mi__texto-contenedor">
+                    <h2 class="sobre-mi__titulo">Sobre mí</h2>
+                    <p class="sobre-mi__texto">Mi nombre es Juan Manuel Impellizziere y soy programador full-stack. He completado los cursos de Introducción a la programación y Full Stack de Python en Codo a Codo. Actualmente me encuentro formandome en one, relizando el curso de frontend.</p>
+                    <p class="sobre-mi__texto">En mi tiempo libre, disfruto practicando escalada deportiva, natación y padel. También me gusta viajar y conocer nuevas culturas. Me apasiona aprender nuevas tecnologias, nuevos lenguajes y el mundo de la programación. Aunque no tengo experiencia laboral, hé trabajado en varios proyectos y me encantan los desafíos.</p>
+                    <!-- Firma opcional -->
+                    <img class="sobre-mi__firma" src="assets/signature.png" alt="Firma">
+                </div>
+                <div class="sobre-mi__imagen-contenedor">
+                    <img class="sobre-mi__imagen" src="assets/IMG_20200210_082849.png" alt="Mi foto">
+                </div>
+            </div>
+        </section>
+
+        <!-- Sección de Habilidades -->
+        <section class="habilidades" id="habilidades">
+            <h2 class="habilidades__titulo">Habilidades</h2>
+            <ul class="habilidades__lista">
+                <li class="habilidades__elemento">
+                    <img class="habilidades__icono" src="assets/html5-brands-solid.svg" alt="HTML">
+                    <p class="habilidades__nombre">HTML 5</p>
+                </li>
+                <li class="habilidades__elemento">
+                    <img class="habilidades__icono" src="assets/square-js-brands-solid.svg" alt="JavaScript">
+                    <p class="habilidades__nombre">JavaScript</p>
+                </li>
+                <li class="habilidades__elemento">
+                    <img class="habilidades__icono" src="assets/python-brands-solid.svg" alt="Python">
+                    <p class="habilidades__nombre">Python</p>
+                </li>
+                <li class="habilidades__elemento">
+                    <img class="habilidades__icono" src="assets/react-brands-solid.svg" alt="React">
+                    <p class="habilidades__nombre">React</p>
+                </li>
+                <li class="habilidades__elemento">
+                    <img class="habilidades__icono" src="assets/css3-alt-brands-solid.svg" alt="CSS">
+                    <p class="habilidades__nombre">CSS</p>
+                </li>
+            </ul>
+        </section>
+
+        <!-- Sección de Aficiones -->
+        <section class="aficiones" id="aficiones">
+            <h2 class="aficiones__titulo">Aficiones</h2>
+            <ul class="aficiones__lista">
+                <li class="aficiones__elemento">
+                    <img class="aficiones__icono" src="assets/person-hiking-solid.svg" alt="Trekking">
+                    <p class="aficiones__nombre">Trekking</p>
+                </li>
+                <li class="aficiones__elemento">
+                    <img class="aficiones__icono" src="assets/person-swimming-solid.svg" alt="Natación">
+                    <p class="aficiones__nombre">Natación</p>
+                </li>
+                <li class="aficiones__elemento">
+                    <img class="aficiones__icono" src="assets/table-tennis-paddle-ball-solid.svg" alt="Padel">
+                    <p class="aficiones__nombre">Padel</p>
+                </li>
+                <li class="aficiones__elemento">
+                    <img class="aficiones__icono" src="assets/tv-solid.svg" alt="Ver series">
+                    <p class="aficiones__nombre">Ver series</p>
+                </li>
+                <li class="aficiones__elemento">
+                    <img class="aficiones__icono" src="assets/book-solid.svg" alt="Leer Libros">
+                    <p class="aficiones__nombre">Leer Libros</p>
+                </li>
+            </ul>
+        </section>
+
+        <!-- Sección de Formación académica -->
+        <section class="formacion" id="formacion">
+            <h2 class="formacion__titulo">Formación académica</h2>
+            <ul class="formacion__lista">
+                <li class="formacion__elemento">
+                    <img class="formacion__icono" src="assets/codoACodo.png" alt="UFPR">
+                    <div>
+                        <h3 class="formacion__nombre">Introducción a la Programación</h3>
+                        <p class="formacion__detalle">2023 - Codo a Codo</p>
+                    </div>
+                </li>
+                <li class="formacion__elemento">
+                    <img class="formacion__icono" src="assets/codoACodo.png" alt="UFRJ">
+                    <div>
+                        <h3 class="formacion__nombre">Full Stack Python</h3>
+                        <p class="formacion__detalle">2023 - Codo a Codo</p>
+                    </div>
+                </li>
+                <li class="formacion__elemento">
+                    <img class="formacion__icono" src="assets/alura_logo.png" alt="Alura">
+                    <div>
+                        <h3 class="formacion__nombre">Formación en Frontend</h3>
+                        <p class="formacion__detalle">2024 - Alura</p>
+                    </div>
+                </li>
+            </ul>
+        </section>
+
+        <!-- Sección de Proyectos -->
+        <section class="proyectos" id="proyectos">
+            <h2 class="proyectos__titulo">Proyectos</h2>
+            <div class="proyectos__contenedor">
+                <a href="https://juanmanuel-dev.github.io/encriptador-de-texto/"><img class="proyecto__img" src="assets/Captura de pantalla_20241003_142728.png" alt="Proyecto encriptador de texto"></a>
+                <div class="proyecto__texto" id="texto-izquierdo">
+                    <h3 class="proyectos__nombre">Ecriptador de texto</h3>
+                    <p class="proyectos__descripcion">En éste proyecto utilicé JavaScript para la lógica del programa, html para la estructura y css para el diseño. Realizado en el curso de One. </p>
+                </div>
+            </div>
+            
+            <div class="proyectos__contenedor">
+                <div class="proyecto__texto">
+                    <h3 class="proyectos__nombre">Ecriptador de texto</h3>
+                    <p class="proyectos__descripcion">En éste proyecto utilicé JavaScript para la lógica del programa, html para la estructura y css para el diseño. Realizado en el curso de One. </p>
+                </div>
+                <a href="https://juanmanuel-dev.github.io/juego__numero__secreto/"><img class="proyecto__img" src="assets/Captura de pantalla_20241004_150501.png" alt="Proyecto encriptador de texto"></a>
+            </div>
+            
+        </section>
+
+        <!-- Sección de Contacto -->
+        <section class="contacto" id="contacto" aria-labelledby="contacto-titulo">
+            <h2 id="contacto-titulo" class="contacto__titulo">Contacto</h2>
+            <form action="https://formsubmit.co/juanmanuelmda@gmail.com" class="contacto__formulario" method="POST">
+                <label for="nombre" class="visually-hidden">Nombre</label>
+                <input name="name" id="nombre" class="contacto__campo" type="text" placeholder="Ej.: Juan" required>
+                
+                <label for="email" class="visually-hidden">Correo Electrónico</label>
+                <input name="email" id="email" class="contacto__campo" type="email" placeholder="nombre@email.com" required>
+                
+                <label for="asunto" class="visually-hidden">Asunto</label>
+                <input name="subject" id="asunto" class="contacto__campo" type="text" placeholder="Tema de la consulta" required>
+                
+                <label for="mensaje" class="visually-hidden">Mensaje</label>
+                <textarea name="message" id="mensaje" class="contacto__campo contacto__campo--textarea" placeholder="Escríba aquí su mensaje" required></textarea>
+                
+                <button onclick="mensajeDeEnvio()" class="contacto__boton" type="submit">Enviar</button>
+
+                <input type="hidden" name="_captcha" value="false">
+                <input type="hidden" name="_next" value="http://127.0.0.1:5500/challenge-one-portafolio-latam/">
+            </form>
+        </section>
+    </main>
+
+    <footer class="footer" role="contentinfo">
+        <ul class="redes">
+            <li class="redes__img"><a href="https://github.com/juanmanuel-dev">Github <img src="assets/arrow.png" alt="Flecha"></a></li>
+            <li class="redes__img"><a href="https://linkedin.com/in/juan-manuel-impellizziere-dev">Linkedin <img src="assets/arrow.png" alt="Flecha"></a></li>
+            <li class="redes__img"><a href="https://www.instagram.com/juanmanuelmda/">Instagram <img src="assets/arrow.png" alt="Flecha"></a></li>
+            <li class="redes__img"><a href="https://drive.google.com/file/d/180RHqhvq6X3FEUdrhsC3JVUPjVOWUn0Q/view?usp=drive_link">Currículo <img src="assets/arrow.png" alt="Flecha"></a></li>
+        </ul>
+        <p class="footer__texto">© 2024 Juan Manuel Impellizziere. One Alura</p>
+    </footer>
+</body>
+    <script src="script.js"></script>
+</html>
