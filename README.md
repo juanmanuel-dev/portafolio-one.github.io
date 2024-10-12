@@ -66,6 +66,10 @@ Si deseas contribuir a este proyecto, siéntete libre de hacer un fork y enviar 
 
 Este proyecto está bajo la Licencia MIT. Consulta el archivo `LICENSE` para más detalles.
 
+## Deploy
+
+https://juanmanuel-dev.github.io/portafolio-one.github.io/
+
 ## Contacto
 
 Para más información, puedes contactarme a través de mis redes sociales:
